@@ -1,0 +1,153 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body base styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+nav a:hover {
+    color: #004999;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+header p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    color: #555;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+p {
+    margin-bottom: 15px;
+    max-width: 800px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.project {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.project h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project strong {
+    font-weight: bold;
+}
+
+.project a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    color: #004999;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #555;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
